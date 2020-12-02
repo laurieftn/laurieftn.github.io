@@ -2,6 +2,7 @@
 .left{
     background-color: #50C9C3;
     color: #ffffff;
+    height: auto;
 }
 
 .left>img{
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .socialMedia>a{ /* Couleurs et hover des icônes de RS */
@@ -45,7 +46,7 @@
 }
 
 .socialMedia>a:hover, .nav-link:hover{
-    color: #151515;
+    color: #1C94E1;
 }
 
 /* BLOC CENTRAL */
@@ -66,14 +67,14 @@
     width: 30%;
 }
 
-.whoIam>h3, .skills-title>h3, .experiences>h3, .formations>h3, .contact>h4{ /* Titres des différents blocs */
+.whoIam>h3, .skills-title>h3, .experiences>h3, .formations>h3, .contact-rs>h4{ /* Titres des différents blocs */
     font-family:'Bebas Neue', cursive;
     font-size: 40px;
     color: #ffffff;
     text-shadow: 0px 2px 3px #707070;
 }
 
-.whoIam>p{
+.whoIam>p, .contact-rs>p{
     color: #ffffff;
     font-family:'Roboto', sans-serif;
     font-size: 15px;
@@ -171,6 +172,10 @@
 /* TIMELINE FORMATIONS*/
 .formations{
     background-color: #BEBEBE;
+}
+
+.formations>h3>i, .experiences>h3>i, .whoIam>h3>i{
+    padding-right: 1%;
 }
 
 .main-timeline {
@@ -330,18 +335,109 @@
 }
 
 /* CONTACT */
-.contact{
-    height: 500px;
+.contact-box{
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.contact>h4{
+.contact-rs>h4{
     padding-top: 2.5%;
     padding-bottom: 2%;
+    display: flex;
+    justify-content: flex-start;
 }
 
-/*MEDIA QUERIES*/
+.contact-buttons{
+    padding-top: 2.5%;
+}
 
+.contact-buttons>.buttons>button, .buttons>p>button{
+    border-radius: 50px;
+    padding: 2%;
+    margin-top: 3%;
+    width: 50%;
+    background: #1C94E1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1C94E1, #50C9C3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1C94E1, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-buttons>.buttons>button>a, .buttons>p>button>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.contact-buttons>.buttons>button:hover, .buttons>p>button:hover{background-image: linear-gradient(to right, #50C9C3 0%, #1C94E1  51%, #50C9C3  100%)}
+.contact-buttons>.buttons>button:hover, .buttons>p>button:hover{
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 50px;}
+
+.contact-buttons>.buttons>button:hover {
+    background-position: left center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+    
+.contact-rs>.meContacter-description{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.contact-rs>.rs-icons, .contact-rs>.meContacter-rs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contact-rs>.rs-icons>a{
+    text-decoration: none;
+    color: #50C9C3;
+    padding: 0px;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.contact-rs>.rs-icons>a:hover{
+    color: #1C94E1;
+}
+
+.contact-rs>.meContacter-rs{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.contact-rs>.contact>i{
+    padding-right: 3%;
+}
+
+
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 991px) {
+
+    /*BARRE DE NAV GAUCHE replacée en HEADER*/
+    .left{
+        height: 500px;
+        width: 100%;
+        position: fixed;
+    }
+
+    /*QUI SUIS-JE ?*/
+    .whoIam-container{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    /*TIMELINE*/
     .main-timeline .date-content {
         margin-top: 35px;
     }
@@ -360,6 +456,15 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    /*QUI SUIS-JE ?*/
+    .whoIam-container{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    /*TIMELINE*/
     .main-timeline:before {
         margin: 0;
         left: 7px;
