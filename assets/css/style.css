@@ -1,0 +1,408 @@
+/* SIDEBAR */
+.left{
+    background-color: #50C9C3;
+    color: #ffffff;
+}
+
+.left>img{
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.left>h1{
+    font-family:'Bebas Neue', cursive;
+    font-size: 62px;
+    margin-bottom: 0px;
+    text-shadow: 0px 2px 3px #707070;
+}
+
+.left>h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-bottom: 20%;
+}
+
+.nav>.nav-link{ /* Couleurs des liens de navigation */
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1%;
+}
+
+.socialMedia{ /* Disposition des icônes de RS */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.socialMedia>a{ /* Couleurs et hover des icônes de RS */
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.socialMedia>a:hover, .nav-link:hover{
+    color: #151515;
+}
+
+/* BLOC CENTRAL */
+.right{ 
+    background: #151515;
+    height: auto;
+    width: 100%;
+    padding: 0%;
+}
+
+.whoIam-container{ /* Qui suis-je */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.whoIam-container>img{
+    width: 30%;
+}
+
+.whoIam>h3, .skills-title>h3, .experiences>h3, .formations>h3, .contact>h4{ /* Titres des différents blocs */
+    font-family:'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 2px 3px #707070;
+}
+
+.whoIam>p{
+    color: #ffffff;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.languages-title, .hobbies-title{
+    color:#50C9C3;
+    font-family:'Bebas Neue', cursive;
+}
+
+.languages, .hobbies{
+    color: #ffffff;
+    font-family:'Bebas Neue', cursive;
+}
+
+.languages-title, .languages, .hobbies-title, .hobbies{
+    font-size: 20px;
+}
+
+.skills-title,.skills-container{    /* Outils & compétences */
+    background-color: #BEBEBE;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+}
+
+.skills-container{
+    padding-bottom: 2%;
+}
+
+.skills>.progress, .skills2>.progress{
+    margin-bottom: 2%;
+}
+
+.skills>.progress>.progress-bar, .skills2>.progress>.progress-bar{
+    background: #1C94E1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1C94E1, #50C9C3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1C94E1, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.skills-subtitles{
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #151515;
+    margin-bottom: 0px;
+}
+
+.skills-margin{
+    margin-top: 15%;
+}
+
+.skills-tools{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.experiences>h3, .formations>h3{
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+/* EXPERIENCES PROFESSIONNELLES */
+.experienceOne>.experience-date, .experienceTwo>.experience-date,
+.experienceOne>.work-type, .experienceTwo>.work-type{
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.experienceOne>.experience-date, .experienceTwo>.experience-date{
+    color: #50C9C3;
+}
+
+.experienceOne>.work-type, .experienceTwo>.work-type,
+.experienceOne>p, .experienceTwo>p{
+    color: #ffffff;
+}
+
+.experienceOne>p, .experienceTwo>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.experienceOne, .experienceTwo{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+/* TIMELINE FORMATIONS*/
+.formations{
+    background-color: #BEBEBE;
+}
+
+.main-timeline {
+    position: relative;
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 100%;
+    background: #151515;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-timeline .timeline {
+    position: relative;
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-timeline .icon:before {
+    background: #ffffff;
+    border: 2px solid #151515;
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative;
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #151515;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 3px #707070;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-timeline .date-outer:before {
+    background: #1C94E1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1C94E1, #50C9C3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1C94E1, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0;
+}
+
+.main-timeline .year {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 36px;
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right;
+}
+
+.main-timeline .title {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+    color: #151515;
+    padding-top: 4%;
+    margin-bottom: 1%;
+}
+
+.main-timeline .description {
+    margin-bottom: 0;
+    color: #151515;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right;
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px;
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right;
+}
+
+/* CONTACT */
+.contact{
+    height: 500px;
+}
+
+.contact>h4{
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px;
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%;
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px;
+    }
+    .main-timeline .title {
+        font-size: 17px;
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px;
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px;
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0;
+    }
+    .main-timeline .icon {
+        margin: auto 0;
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0;
+    }
+    .main-timeline .date-content:before {
+        display: none;
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px;
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px;
+    }
+    .main-timeline .date {
+        top: 30%;
+    }
+    .main-timeline .year {
+        font-size: 27px;
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .main-timeline .title {
+        margin-bottom: 10px;
+    }
+}
