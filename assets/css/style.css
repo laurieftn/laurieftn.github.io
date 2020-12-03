@@ -8,12 +8,15 @@
     background-color: #50C9C3;
     color: #ffffff;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .left>img{
-    width: 70%;
+    width: 60%;
     padding-top: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .left>h1{
@@ -42,7 +45,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 9%;
 }
 
 .socialMedia>a{ /* Couleurs et hover des icônes de RS */
@@ -457,8 +460,8 @@
         color: #ffffff;
     }
 
-    .headerResponsive-title>img{
-        width: 70%;
+    .headerResponsive>.headerResponsive-title>img{
+        width: 65%;
         padding-bottom: 5%;
         margin-top: 15%;
     }
@@ -572,7 +575,7 @@
     }
 
     .headerResponsive-title>img{
-        width: 70%;
+        width: 60%;
         padding-bottom: 5%;
         margin-top: 15%;
     }
