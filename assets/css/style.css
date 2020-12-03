@@ -1,3 +1,8 @@
+/* HEADER RESPONSIVE */
+.headerResponsive{
+    display: none;
+}
+
 /* SIDEBAR */
 .left{
     background-color: #50C9C3;
@@ -18,7 +23,7 @@
     text-shadow: 0px 2px 3px #707070;
 }
 
-.left>h2{
+.left>div>h2{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     letter-spacing: 5px;
@@ -354,7 +359,7 @@
 
 .contact-buttons>.buttons>button, .buttons>p>button{
     border-radius: 50px;
-    padding: 2%;
+    padding: 1.5%;
     margin-top: 3%;
     width: 50%;
     background: #1C94E1; /* fallback for old browsers */
@@ -423,11 +428,46 @@
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 991px) {
 
-    /*BARRE DE NAV GAUCHE replacée en HEADER*/
+    /*BARRE DE NAV GAUCHE supprimée*/
     .left{
-        height: 500px;
+        display: none;
+    }
+
+    /*HEADER RESPONSIVE*/
+    .menuResponsive{ /* menu burger */
+        background-color: #50C9C3;
+    }
+
+    .headerResponsive-title>.navbar>.navbar-collapse>ul>li>a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .headerResponsive{
+        display: block;
+        height: auto;
         width: 100%;
-        position: fixed;
+        background-color: #50C9C3;
+        padding: 8%;
+        color: #ffffff;
+    }
+
+    .headerResponsive-title>img{
+        width: 70%;
+        padding-bottom: 5%;
+    }
+    
+    .headerResponsive-title>h1{
+        font-family:'Bebas Neue', cursive;
+        font-size: 71px;
+        margin-bottom: 0px;
+        text-shadow: 0px 2px 3px #707070;
+    }
+
+    .headerResponsive-title>div>h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        letter-spacing: 5px;
     }
 
     /*QUI SUIS-JE ?*/
@@ -435,6 +475,19 @@
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+    }
+
+    .whoIam-container, .skills-title, .experiences, .formations, .contact-box{ /* Ajout de padding pour chaque bloc, au-dessus du titre */
+        padding-top: 6%;
+    }
+
+    .whoIam-container>.whoIam>h3{
+        text-align: center;
+    }
+
+    /* SKILLS */
+    .skills-container{
+        padding-bottom: 6%;
     }
 
     /*TIMELINE*/
@@ -453,15 +506,96 @@
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         padding: 10px 30px 10px 0;
     }
+
+    /* CONTACT */
+    .contact-buttons>.buttons>button, .buttons>p>button{
+        border-radius: 50px;
+        padding: 1.5%;
+        margin-top: 3%;
+        width: 85%;
+        background: #1C94E1; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1C94E1, #50C9C3); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1C94E1, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .contact-buttons>.buttons>button>a, .buttons>p>button>a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+
+    .contact-rs>h4{
+        padding-top: 2.5%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+
+    /*BARRE DE NAV GAUCHE supprimée*/
+    .left{
+        display: none;
+    }
+
+     /*HEADER RESPONSIVE*/
+     .menuResponsive{ /* menu burger */
+        background-color: #50C9C3;
+    }
+
+    .headerResponsive-title>.navbar>.navbar-collapse>ul>li>a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .headerResponsive{
+        display: block;
+        height: auto;
+        width: 100%;
+        background-color: #50C9C3;
+        padding: 8%;
+        color: #ffffff;
+    }
+
+    .headerResponsive-title>img{
+        width: 70%;
+        padding-bottom: 5%;
+    }
+    
+    .headerResponsive-title>h1{
+        font-family:'Bebas Neue', cursive;
+        font-size: 71px;
+        margin-bottom: 0px;
+        text-shadow: 0px 2px 3px #707070;
+    }
+
+    .headerResponsive-title>div>h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        letter-spacing: 5px;
+    }
 
     /*QUI SUIS-JE ?*/
     .whoIam-container{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+    }
+
+    .whoIam-container, .skills-title, .experiences, .formations, .contact-box{ /* Ajout de padding pour chaque bloc, au-dessus du titre */
+        padding-top: 6%;
+    }
+
+    .whoIam-container>.whoIam>h3{
+        text-align: center;
+    }
+
+    /* SKILLS */
+    .skills-container{
+        padding-bottom: 6%;
     }
 
     /*TIMELINE*/
@@ -509,5 +643,31 @@
     }
     .main-timeline .title {
         margin-bottom: 10px;
+    }
+
+    /* CONTACT */
+    .contact-buttons>.buttons>button, .buttons>p>button{
+        border-radius: 50px;
+        padding: 1.5%;
+        margin-top: 3%;
+        width: 85%;
+        background: #1C94E1; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1C94E1, #50C9C3); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1C94E1, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .contact-buttons>.buttons>button>a, .buttons>p>button>a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+
+    .contact-rs>h4{
+        padding-top: 2.5%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }
