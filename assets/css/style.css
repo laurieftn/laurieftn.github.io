@@ -162,8 +162,13 @@
 }
 
 .experienceOne>.work-type, .experienceTwo>.work-type,
-.experienceOne>p, .experienceTwo>p{
+.experienceOne>p>a, .experienceTwo>p{
     color: #ffffff;
+    text-decoration: none;
+}
+
+.experienceOne>p>a:hover{
+    color: #1C94E1;
 }
 
 .experienceOne>p, .experienceTwo>p{
