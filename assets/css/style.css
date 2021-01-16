@@ -137,11 +137,25 @@
     margin-top: 15%;
 }
 
+.skills-margin-others{
+    margin-bottom: 1.5%;
+}
+
 .skills-tools{
     font-family:'Roboto', sans-serif;
     font-size: 14px;
     margin-bottom: 0%;
     margin-top: 3%;
+}
+
+.badge-skills{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #50C9C3;
+    padding: 2%;
+    margin-top: 1.5%;
+    margin-right: 0.5%;
 }
 
 .experiences>h3, .formations>h3{
@@ -502,6 +516,11 @@
     /* SKILLS */
     .skills-container{
         padding-bottom: 6%;
+    }
+
+    .badge-skills{
+        padding: 4%;
+        margin-top: 3%;
     }
 
     /*TIMELINE*/
