@@ -166,21 +166,23 @@
 
 /* EXPERIENCES PROFESSIONNELLES */
 .experienceOne>.experience-date, .experienceTwo>.experience-date,
-.experienceOne>.work-type, .experienceTwo>.work-type{
+.experienceOne>.work-type, .experienceTwo>.work-type,
+.experienceOne>p>a, .experienceTwo>p{
     font-family:'Bebas Neue', cursive;
     font-size: 20px;
 }
 
 .experienceOne>.experience-date, .experienceTwo>.experience-date{
-    color: #50C9C3;
+    color: #1C94E1;
 }
 
-.experienceOne>.work-type, .experienceTwo>.work-type,
-.experienceOne>p>a, .experienceTwo>p{
+.experienceOne>.work-type, .experienceTwo>.work-type,{
     color: #ffffff;
+}
+
+.experienceOne>p>a, .experienceTwo>p{
+    color: #50C9C3;
     text-decoration: none;
-    font-family:'Bebas Neue', cursive;
-    font-size: 20px;
 }
 
 .experienceOne>p>a:hover{
@@ -197,6 +199,8 @@
 .experienceOne>.work-skills, .experienceTwo>.work-skills{
     text-align: justify;
     display: inline-block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .work-skills>li{
