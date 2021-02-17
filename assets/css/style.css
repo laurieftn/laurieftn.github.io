@@ -179,21 +179,32 @@
 .experienceOne>p>a, .experienceTwo>p{
     color: #ffffff;
     text-decoration: none;
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
 }
 
 .experienceOne>p>a:hover{
     color: #1C94E1;
 }
 
-.experienceOne>p, .experienceTwo>p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-}
-
 .experienceOne, .experienceTwo{
     margin-bottom: 3%;
     margin-top: 1%;
     display: inline-block;
+    color: #ffffff;
+}
+
+.experienceOne>.work-skills, .experienceTwo>.work-skills{
+    text-align: justify;
+    display: inline-block;
+}
+
+.work-skills>li{
+    color: #1C94E1;
+}
+
+.work-skills>li>span{
+    color: #ffffff;
 }
 
 /* TIMELINE FORMATIONS*/
