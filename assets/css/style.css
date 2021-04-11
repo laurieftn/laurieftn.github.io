@@ -14,30 +14,35 @@
 }
 
 .left>img{
-    width: 75%;
+    width: 65%;
     padding-top: 10%;
     padding-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .left>h1{
-    font-family:'Bebas Neue', cursive;
-    font-size: 62px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 1%;
     margin-bottom: 0px;
-    text-shadow: 0px 2px 3px #707070;
+    text-shadow: 0px 2px 3px #505050;
 }
 
 .left>div>h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 18px;
-    letter-spacing: 5px;
+    letter-spacing: 9px;
     margin-bottom: 20%;
+    padding-left: 1%;
 }
 
 .nav>.nav-link{ /* Couleurs des liens de navigation */
     color: #ffffff;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1%;
 }
 
@@ -72,39 +77,42 @@
 }
 
 .whoIam-container>img{
-    width: 30%;
+    width: 25%;
 }
 
 .whoIam>h3, .skills-title>h3, .experiences>h3, .formations>h3, .contact-rs>h4{ /* Titres des différents blocs */
-    font-family:'Bebas Neue', cursive;
-    font-size: 40px;
-    color: #ffffff;
-    text-shadow: 0px 2px 3px #707070;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 35px;
+    text-shadow: 0px 2px 3px #303030;
 }
+
 
 .whoIam>p, .contact-rs>p{
     color: #ffffff;
-    font-family:'Roboto', sans-serif;
+    font-family:'Montserrat', sans-serif;
     font-size: 15px;
     text-align: justify;
 }
 
 .languages-title, .hobbies-title{
     color:#50C9C3;
-    font-family:'Bebas Neue', cursive;
+    font-family:'Josefin Sans', sans-serif;
 }
 
 .languages, .hobbies{
     color: #ffffff;
-    font-family:'Bebas Neue', cursive;
+    font-family:'Josefin Sans', sans-serif;
 }
 
 .languages-title, .languages, .hobbies-title, .hobbies{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .skills-title,.skills-container{    /* Outils & compétences */
-    background-color: #BEBEBE;
+    background-color: #B9B9B9;
     padding-top: 2%;
     display: flex;
     flex-direction: row;
@@ -118,6 +126,7 @@
 
 .skills>.progress, .skills2>.progress{
     margin-bottom: 2%;
+    background: #ffffff;
 }
 
 .skills>.progress>.progress-bar, .skills2>.progress>.progress-bar{
@@ -127,8 +136,9 @@
 }
 
 .skills-subtitles{
-    font-family:'Bebas Neue', cursive;
-    font-size: 20px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
     color: #151515;
     margin-bottom: 0px;
 }
@@ -142,16 +152,18 @@
 }
 
 .skills-tools{
-    font-family:'Roboto', sans-serif;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 14px;
+    color: #151515;
     margin-bottom: 0%;
     margin-top: 3%;
 }
 
 .badge-skills{
-    font-family:'Roboto', sans-serif;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 14px;
-    font-weight: normal;
     background-color: #50C9C3;
     padding: 2%;
     margin-top: 1.5%;
@@ -168,8 +180,9 @@
 .experienceOne>.experience-date, .experienceTwo>.experience-date,
 .experienceOne>.work-type, .experienceTwo>.work-type,
 .experienceOne>p>a, .experienceTwo>p{
-    font-family:'Bebas Neue', cursive;
-    font-size: 20px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .experienceOne>.experience-date, .experienceTwo>.experience-date{
@@ -200,7 +213,7 @@
     text-align: justify;
     display: inline-block;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .work-skills>li{
@@ -213,11 +226,7 @@
 
 /* TIMELINE FORMATIONS*/
 .formations{
-    background-color: #BEBEBE;
-}
-
-.formations>h3>i, .experiences>h3>i, .whoIam>h3>i{
-    padding-right: 1%;
+    background-color: #B9B9B9;
 }
 
 .main-timeline{
@@ -333,7 +342,7 @@
 
 .main-timeline .year {
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 27px;
     font-weight: bold;
     color: #ffffff;
@@ -347,8 +356,9 @@
 }
 
 .main-timeline .title {
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
     line-height: 24px;
     margin: 0 0 15px 0;
     color: #151515;
@@ -359,8 +369,9 @@
 .main-timeline .description {
     margin-bottom: 0;
     color: #151515;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    font-weight: 500;
 }
 
 .main-timeline .timeline:nth-child(2n) .date-content {
@@ -407,7 +418,7 @@
 .contact-buttons>.buttons>button>a, .buttons>p>button>a{
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
 }
 
@@ -429,7 +440,7 @@
     
 .contact-rs>.meContacter-description{
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
 
@@ -476,9 +487,10 @@
     }
 
     .headerResponsive-title>.navbar>.navbar-collapse>ul>li>a{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        color: #BEBEBE;
+        font-weight: 600px;
+        color: #B9B9B9;
     }
 
     .nav-link:hover{
@@ -494,23 +506,22 @@
         color: #ffffff;
     }
 
-    .headerResponsive>.headerResponsive-title>img{
-        width: 65%;
-        padding-bottom: 5%;
-        margin-top: 20%;
+    .headerResponsive-title>img{
+        width: 60%;
+        margin-top: 5%;
+        padding-bottom: 0%;
     }
     
     .headerResponsive-title>h1{
-        font-family:'Bebas Neue', cursive;
-        font-size: 71px;
-        margin-bottom: 0px;
-        text-shadow: 0px 2px 3px #707070;
+        display: none;
     }
 
     .headerResponsive-title>div>h2{
-        font-family: 'Roboto', sans-serif;
-        font-size: 22px;
-        letter-spacing: 5px;
+        display: none;
+    }
+
+    .socialMedia{ /* Disposition des icônes de RS */
+        margin-top: 4%;
     }
 
     /*QUI SUIS-JE ?*/
@@ -569,7 +580,7 @@
     .contact-buttons>.buttons>button>a, .buttons>p>button>a{
         text-decoration: none;
         color: #ffffff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
     }
 
@@ -595,9 +606,9 @@
     }
 
     .headerResponsive-title>.navbar>.navbar-collapse>ul>li>a{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        color: #BEBEBE;
+        color: #B9B9B9;
     }
 
     .nav-link:hover{
@@ -614,22 +625,32 @@
     }
 
     .headerResponsive-title>img{
-        width: 60%;
+        width: 70%;
         padding-bottom: 5%;
         margin-top: 20%;
     }
     
     .headerResponsive-title>h1{
-        font-family:'Bebas Neue', cursive;
-        font-size: 71px;
-        margin-bottom: 0px;
-        text-shadow: 0px 2px 3px #707070;
+        display: none;
     }
 
     .headerResponsive-title>div>h2{
-        font-family: 'Roboto', sans-serif;
-        font-size: 22px;
-        letter-spacing: 5px;
+        display: none;
+    }
+
+    .whoIam>h3, .skills-title>h3, .experiences>h3, .formations>h3, .contact-rs>h4{
+        font-size: 30px;
+    } 
+
+    .whoIam>p, .contact-rs>p{
+        color: #ffffff;
+        font-family:'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .socialMedia{ /* Disposition des icônes de RS */
+        margin-top: 0%;
     }
 
     /*QUI SUIS-JE ?*/
@@ -640,16 +661,36 @@
     }
 
     .whoIam-container, .skills-title, .experiences, .formations, .contact-box{ /* Ajout de padding pour chaque bloc, au-dessus du titre */
-        padding-top: 6%;
+        padding-top: 8%;
     }
 
     .whoIam-container>.whoIam>h3{
         text-align: center;
     }
 
+    .languages-title, .languages, .hobbies-title, .hobbies{
+        font-size: 17px;
+        font-weight: bold;
+    }
+
     /* SKILLS */
     .skills-container{
         padding-bottom: 6%;
+    }
+
+    .skills-subtitles{
+        font-size: 16px;
+        padding-top: 10%;
+    }
+
+    /* EXPERIENCES */
+
+    .experienceOne>.experience-date, .experienceTwo>.experience-date,
+    .experienceOne>.work-type, .experienceTwo>.work-type,
+    .experienceOne>p>a, .experienceTwo>p{
+        font-family:'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
     }
 
     /*TIMELINE*/
@@ -713,7 +754,7 @@
     .contact-buttons>.buttons>button>a, .buttons>p>button>a{
         text-decoration: none;
         color: #ffffff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
     }
 
