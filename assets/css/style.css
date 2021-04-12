@@ -23,7 +23,7 @@
 .left>h1{
     font-family:'Josefin Sans', sans-serif;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 1%;
     margin-bottom: 0px;
     text-shadow: 0px 2px 3px #505050;
@@ -32,15 +32,15 @@
 .left>div>h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 9px;
+    font-size: 13px;
+    letter-spacing: 8.5px;
     margin-bottom: 20%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .nav>.nav-link{ /* Couleurs des liens de navigation */
     color: #ffffff;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1%;
@@ -84,7 +84,7 @@
     font-family:'Josefin Sans', sans-serif;
     font-weight: bold;
     color:#ffffff;
-    font-size: 35px;
+    font-size: 28px;
     text-shadow: 0px 2px 3px #303030;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .languages-title, .languages, .hobbies-title, .hobbies{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -138,7 +138,7 @@
 .skills-subtitles{
     font-family:'Josefin Sans', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     color: #151515;
     margin-bottom: 0px;
 }
@@ -154,7 +154,7 @@
 .skills-tools{
     font-family:'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     color: #151515;
     margin-bottom: 0%;
     margin-top: 3%;
@@ -182,7 +182,7 @@
 .experienceOne>p>a, .experienceTwo>p{
     font-family:'Josefin Sans', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .experienceOne>.experience-date, .experienceTwo>.experience-date{
@@ -306,7 +306,7 @@
 .main-timeline .date-outer {
     width: 125px;
     height: 125px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     margin: auto;
     z-index: 1;
@@ -343,7 +343,7 @@
 .main-timeline .year {
     display: block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: bold;
     color: #ffffff;
     line-height: 36px;
@@ -356,7 +356,7 @@
 }
 
 .main-timeline .title {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     line-height: 24px;
@@ -419,7 +419,7 @@
     text-decoration: none;
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .contact-buttons>.buttons>button:hover, .buttons>p>button:hover{background-image: linear-gradient(to right, #50C9C3 0%, #1C94E1  51%, #50C9C3  100%)}
